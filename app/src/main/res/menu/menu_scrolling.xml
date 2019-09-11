@@ -1,0 +1,19 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CollapsingToolbarLayoutActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_email"
+        android:orderInCategory="200"
+        android:title="info"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_dialog_email"/>
+</menu>
